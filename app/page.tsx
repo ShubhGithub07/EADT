@@ -2,6 +2,7 @@
 
 import HeroSection from "./components/HeroSection";
 import Testimonials from "./components/Testimonials"; 
+import Steps from "./components/Steps";
 import { CheckCircle, Twitter, Linkedin } from "lucide-react";
 
 export default function Homepage() {
@@ -63,6 +64,7 @@ export default function Homepage() {
             </div>
           </div>
         </div>
+        <Steps />
         <Testimonials />
       </main>
     </div>
